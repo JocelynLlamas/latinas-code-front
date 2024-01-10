@@ -7,10 +7,10 @@ body {
 	font-size: 14px;
 }
 a {
-	color:#5f0099;
+	color:#F06BD6;
 }
 a:hover {
-	color:#5f0099;
+	color:#F06BD6;
 }
 h1, h2, h3 {
 	font-weight: 700;
@@ -40,7 +40,7 @@ h6 {
 	z-index: 1030;
 }
 .navbar .active {
-	color: #5f0099 !important;
+	color: #F06BD6 !important;
 }
 .navbar .navbar-brand {
 }
@@ -55,7 +55,7 @@ h6 {
 	font-size: 13px;
 }
 .navbar .nav-item a:hover {
-	color: #5f0099;
+	color: #F06BD6;
 }
 .navbar .nav-link {
 	position: relative;
@@ -97,8 +97,10 @@ h6 {
 	position: relative;
 }
 .banner {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	/* background: #7a60ff;
+	background: linear-gradient(to left, #7a60ff, #cd9ffa); */
+	background: white;
+	background: linear-gradient(to left, #F06BD6, #f9e0f3);
 	padding:100px 0px;
 	position:relative;
 }
@@ -130,6 +132,7 @@ h6 {
 }
 .banner-text p {
 	margin:40px 0px;
+	font-size: 18px;
 }
 .banner-text ul {
 	list-style: none;
@@ -204,16 +207,16 @@ h6 {
 	margin: 0 auto;
 }
 .about-btn {
-	color: #8e1efc;
+	color: #B91D9D;
 	padding: 10px 40px;
-	border: 2px solid #8e1efc;
+	border: 2px solid #B91D9D;
 	border-radius: 7px;
-	margin-top: 30px;
 	display: inline-block;
 	font-size: 18px;
+	transition: ease-in 0.5s;
 }
 .about-btn:hover {
-	background:#8e1efc;
+	background:#B91D9D;
 	color:#ffffff;
 	text-decoration:none;
 }
