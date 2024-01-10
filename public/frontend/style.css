@@ -148,6 +148,14 @@ h6 {
 	width: 150px;
 	border-radius: 7px;
 }
+.banner-overlay{
+	margin-bottom: 2%;
+}
+.img-container{
+	display: flex; 
+	align-items: center; 
+	justify-content: center;
+}
 .prelative {
 	position:relative
 }
@@ -458,8 +466,8 @@ input {
 	margin: 0;
 }
 .download {
-	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: #F06BD6;
+	background: linear-gradient(to left, #F06BD6, #f9e0f3);
 	padding:100px 0px;
 	position:relative;
 }
@@ -483,9 +491,15 @@ input {
 .download ul li a {
 	display: block;
 }
-.download ul li a img {
+.download ul li a i {
 	width: 150px;
+	font-size: 50px;
 	border-radius: 7px;
+	color: white;
+	transition: ease-in 0.5s;
+}
+.download ul li a i:hover {
+	color: #B91D9D;
 }
 .footer-copy {
 	background: #ffffff;
