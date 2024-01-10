@@ -1,6 +1,7 @@
 <script setup>
 import Appbar from "./components/Appbar.vue";
 import Banner from "./components/Banner.vue";
+import Comunity from "./pages/Comunity.vue";
 
 </script>
 
@@ -8,6 +9,7 @@ import Banner from "./components/Banner.vue";
   <div id="app">
     <Appbar/>
     <Banner/>
+    <Comunity/>
   </div>
 </template>
 
